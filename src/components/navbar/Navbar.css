@@ -58,6 +58,9 @@ nav {
 .resume {
   color: white !important;
 }
+.nav-menu{
+  font-size: 35px !important;
+}
 
 @media (max-width: 991px) {
   #hide {
@@ -98,6 +101,7 @@ nav {
     right: 0;
     height: 100vh;
     transition: right 1s;
+    z-index: 10;
   }
   .nav_right > h6 {
     padding: 15px 0;

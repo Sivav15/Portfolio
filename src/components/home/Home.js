@@ -58,7 +58,7 @@ function Home() {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={150}
+                  offset={350}
                   duration={250}
                 >
                   Hire Me <TouchAppIcon />

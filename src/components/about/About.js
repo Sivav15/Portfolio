@@ -14,7 +14,7 @@ function About() {
     <Element id="about">
       <div className="about-main">
         <div className="about">
-          <div className="row a_contains">
+          <div className="row a_contains mx-auto">
             <div className=" col-sm-12 col-md-12 col-lg-6  about-left-contain">
               <img
                 src="https://www.roessner.tech/static/media/about.d8fe852f6a9badcd8616.png"

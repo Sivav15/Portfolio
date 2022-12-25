@@ -145,6 +145,7 @@ function Contact() {
                           width: "1rem",
                           maxHeight: "26px",
                           minWidth: "64px",
+                          background:"none"
                         }}
                       />
                     ) : (
