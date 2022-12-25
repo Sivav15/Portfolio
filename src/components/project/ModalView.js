@@ -70,6 +70,10 @@ function ModalView({ handleClose, open, data }) {
       fontSize: "2.7rem",
       border: "none",
     },
+    paras : {
+      color:"black",
+      // textIndent:"20px",
+    },
   };
   function MouseOver(event) {
     event.target.style.color = "red";
@@ -108,7 +112,7 @@ function ModalView({ handleClose, open, data }) {
                 {longNote.length > 0 &&
                   longNote.map((para, index) => {
                     return (
-                      <p key={index} className="text-black">
+                      <p key={index}  style={style.paras}>
                         <ReactMarkdown
                           components={{
                             strong: ({ node, ...props }) => (

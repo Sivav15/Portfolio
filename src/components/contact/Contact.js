@@ -48,7 +48,7 @@ function Contact() {
   };
   return (
     <Element id="contact">
-      <div className="container-fluid contact">
+      <div className="contact">
         <img
           src="./asset/footer-wave-dark.svg"
           alt="footer-wave-dark"
