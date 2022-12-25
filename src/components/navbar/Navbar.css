@@ -100,7 +100,7 @@ nav {
     top: 0;
     right: 0;
     height: 100vh;
-    transition: right 1s;
+    transition: right 0.8s;
     z-index: 10;
   }
   .nav_right > h6 {
