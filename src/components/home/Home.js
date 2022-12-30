@@ -6,6 +6,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TouchAppIcon from "@material-ui/icons/TouchApp";
 import EventNoteIcon from "@material-ui/icons/EventNote";
+import CallIcon from "@material-ui/icons/Call";
 import Type from "./Type";
 import { Link } from "react-scroll";
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
               <h1>
                 I'm <span className="hi">Sivanathan</span>
               </h1>
-              <h3 className="type" style={{ color: "red" , minWidth:"350px"}}>
+              <h3 className="type" style={{ color: "red", minWidth: "350px" }}>
                 <Type />
               </h3>
               <div className="home-icon">
@@ -51,6 +52,13 @@ function Home() {
                   }
                 >
                   <MailIcon fontSize="medium" />
+                </span>
+                <span
+                  className="home-icon"
+                  onClick={() => window.open("tel://+919566940955", "_blank")}
+                >
+                  
+                  <CallIcon fontSize="small" />
                 </span>
               </div>
               <button type="button" className="home-button">
