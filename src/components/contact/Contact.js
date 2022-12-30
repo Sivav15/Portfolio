@@ -83,7 +83,7 @@ function Contact() {
                   >
                     <CallIcon fontSize="medium" /> +91 9566940955
                   </p>
-                  <p
+                  <p className="ss"
                     onClick={() =>
                       window.open("mailto:sivanathanv1999@gmail.com", "_blank")
                     }
