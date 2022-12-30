@@ -5,9 +5,9 @@ import "./About.css";
 function About() {
   const para = [
     "Hi Everyone, I am **Sivanathan V** from **Salem, India**.",
-    "I am an innovative and dedicated **hardworking MERN stack developer** with **hands-on experience in developing web applications**.",
+    "I am an innovative and dedicated **hardworking full stack developer** with **hands-on experience in developing web applications with MERN stack**.",
     "I have passion for **developing scalable web application** and working across the full stack.",
-    "**I spend most days learning** and **building up**, either start it from **scratch or adding some customized features and functionality for outdated websites to make them shine** again.",
+    "**I spend most days learning** and **building up**, either start it from **scratch and adding some customized features and functionality**.",
   ];
 
   return (

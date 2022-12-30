@@ -21,7 +21,7 @@ function Home() {
               <h1>
                 I'm <span className="hi">Sivanathan</span>
               </h1>
-              <h3 className="type" style={{ color: "red" }}>
+              <h3 className="type" style={{ color: "red" , minWidth:"350px"}}>
                 <Type />
               </h3>
               <div className="home-icon">

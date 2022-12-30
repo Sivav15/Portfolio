@@ -4,7 +4,7 @@ import Card from "./Card";
 import "./Project.css";
 
 function Project() {
-  const [value, setValue] = useState("mern");
+  const [value, setValue] = useState("all");
   let data = [
     {
       key: ["react", "express", "all", "restApi", "mern"],
@@ -14,15 +14,15 @@ function Project() {
         "https://github.com/Sivav15/shop-inventory-management-front-end",
       githubBackEnd:
         "https://github.com/Sivav15/Shop-inventory-management-back-end",
-      sourceCode: "https://shopinventorymanagement.netlify.app",
+      sourceCode:"https://shopinventorymanagement.netlify.app",
       shortNote:
-        "I build the app for shop inventory management for billing session.",
+        "I built an app for shop inventory management for billing.",
       longNote: [
-        "The frontend is built using **React** with **Bootstrap** for styling. The backend is build with **Node.js** with **Express.js** framework along with **MongoDB** database to store the data.",
+        "The frontend is built using **React** with **Bootstrap** for styling. The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
         "This app used for **retail shop inventory management**, To **store product** and **stock** details.",
-        "I have add **login/logout** feature. If the **user** is **login** to display our **data**. ",
-        "In this app **two category admin and user**. if **admin login** to **show admin page** or **user login** to **show user page**.",
-        "Admin page to show **Add edit delete product** and show **avaliable stocks**, **bought stock**, **selling stock**, **billing (or) order data by user wise**, **yearly selling amount**.",
+        "I have add **login/logout** feature. If the **users** is **logged in**  it will dissplay the users **data**. ",
+        "They are **two category of users-admin and billing speciallest**. If a **user login as admin** it will show the **admin page** or else it will show **billing session**.",
+        "Admin page to show **add edit delete product** and show **avaliable stocks**, **bought stock**, **selling stock**, **billing (or) order data by user wise**, **yearly selling amount**.",
         "User page to show **billing section**, **your order page** and **invoice bill** ect.",
       ],
       skills: [
@@ -70,13 +70,12 @@ function Project() {
       githubBackEnd: "https://github.com/Sivav15/assign-mentor-backend",
       sourceCode: "https://students-teachers-management-fe.vercel.app",
       shortNote:
-        "This app is use to store student and mentor details. And assign student for particular mentor",
+        "The app is used to store student and mentor details. And assign student for particular mentor.",
       longNote: [
         "This is  **fullstack** web application.",
         "The frontend is built using **React** with **React-Bootstrap** for styling.",
-        "The backend is build with **Node.js** with **Express.js** framework along with **MongoDB** database to store the data.",
+        "The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
         "Main concept of the app is use to **store student and mentor** details. And **assign student** for **particular mentor**.",
-        "Another one feature **Delete one mentor** if the **particular menton student are assign** that **student are unassign**.",
       ],
       skills: [
         {
@@ -110,15 +109,15 @@ function Project() {
       githubBackEnd: "https://github.com/Sivav15/Url-shortener-back-end",
       sourceCode: "https://url-shortener-front-end.vercel.app",
       shortNote:
-        "The URL Shortener app is used to short long url to small url.",
+        "The URL shortener app is used to short long url to small url.",
       longNote: [
         // "This is  **fullstack** web application",
         "The frontend is built using **React** with **Bootstrap** for styling.",
-        "The backend is build with **Node.js** with **Express.js** framework along with **MongoDB** database to store the URLs.",
+        "The backend is build with **Node.js** , **Express.js** and uses **MongoDB** as database.",
         "As the title suggests, the app can be used to shorten urls that can be **shared** with **anyone on the internet**.",
-        "I have add **login/logout** feature. If the **user** is **login** to display our **data**. ",
-        "I have used **JWT-Authentication**. Session **login** only for **5m**. **After refresh the page** show **section expiry** message.",
-        "I added **forget password** feature.Forget password link validity only 10m.",
+        "I have add **login/logout** feature. If the **user** is **loggedin** it will only show that users **data**. ",
+        "I have used **JWT for authentication**.",
+        "I added **forget password** feature.The forget password link will be **valid for 10m**.",
       ],
       skills: [
         {
@@ -156,13 +155,12 @@ function Project() {
       githubBackEnd: "",
       sourceCode: "https://edaman-recipes.netlify.app",
       shortNote:
-        "This is mock api website, it is used to check food Nutrition for health benefits.",
+        "This is mock api website, it is used to check food nutrition for health benefits.",
       longNote: [
-        "This is my first **JavaScript DOM Rendering** project. And main fetuare of the website **Search option** and **HTML** elements are **render only JavaScript DOM**.",
-        "The application is made using **HTML** and styled using **CSS** and this website **dynamic by JavaScript**.",
-        "I have **get api** in **Edaman Recipes** and this website is used to **check food Nutrition** for **health benefits**.",
-        "This  **website responsive** for **all screen size**.",
-        "**Finally**, this is **my mini project**.",
+        "This is my first **JavaScript DOM rendering** project. And main feature of the website is the **search option** and **HTML** elements are **rendered only JavaScript DOM**.",
+        "The application is made using **HTML** and styled using **CSS** and this website uses **JavaScript** for **dynamic loading**.",
+        "I have  used **mock api** in **edaman recipes** and this website is used to **check food nutrition** for **health benefits**.",
+        "This  **website is responsive** for **all screen size**.",
       ],
       skills: [
         {
@@ -191,14 +189,14 @@ function Project() {
       githubBackEnd: "",
       sourceCode: "https://spectacular-begonia-6cb8f6.netlify.app",
       shortNote:
-        "This is my hackathon project. I apply the pagination concept, Finally i completed the project in 4hrs.",
+        "This is my hackathon project. I applied the pagination concept, And finally completed the project in 4hrs.",
       longNote: [
         "This is **my hackathon project**.",
-        "The application is made using **HTML** and styled using **CSS** and this website **dynamic by JavaScript**.",
-        "I have **get api** in **Pokemon offical site** and this is a **Cartoon website**.",
-        "All **HTML** elements are **render only JavaScript DOM**.",
-        "I this **pagination** concept display **10 buttons** for each **5 Pokemons display** in this page. and **display only 50 Pokemons** in this website.",
-        "Finally, I **Completed** the **project in 4hrs**.",
+        "The application is made using **HTML** and styled using **CSS** and this website uses **JavaScript** for **dynamic loading**.",
+        "I have used **mock api** in **pokemon offical site**( Cartoon website ).",
+        "All **HTML** elements are **rendered only in JavaScript DOM**.",
+        "I used **pagination**  to **display 5 pokemons at a time**.",
+        "Finally, I **completed** the **project in 4hrs**.",
       ],
       skills: [
         {
