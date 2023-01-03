@@ -23,7 +23,7 @@ function Navbar({open,setOpen}) {
       </div>
       <div className="nav_right" id={open ? null : "hide"}>
         <div className="menu_icon" onClick={handleClick}>
-          <span> {open ? <CloseIcon className="nav-menu" /> : null}</span>
+          <span> <CloseIcon className="nav-menu" /></span>
         </div>
         <h6>
           <Link
@@ -107,7 +107,7 @@ function Navbar({open,setOpen}) {
         </h6>
       </div>
       <div className="menu_icon2 " onClick={handleClick}>
-        <span> {open ? null : <MenuIcon className="nav-menu" />}</span>
+        <span> <MenuIcon className="nav-menu" /></span>
       </div>
     </nav>
   );
