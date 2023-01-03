@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import HomeIcon from "@material-ui/icons/Home";
@@ -10,8 +10,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import DescriptionIcon from "@material-ui/icons/Description";
 
-function Navbar() {
-  const [open, setOpen] = useState(false);
+function Navbar({open,setOpen}) {
+  
   const handleClick = () => setOpen(!open);
   const closeMenu = () => setOpen(false);
   return (

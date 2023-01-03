@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -8,9 +8,10 @@ import Project from "./components/project/Project";
 import Skills from "./components/skill/Skills";
 
 function App() {
+  const [open, setOpen] = useState(false);
   return (
-    <div>
-      <Navbar />
+    <div onWheel={()=> setOpen(false)}>
+      <Navbar  open={open} setOpen ={setOpen} />
       <Home />
       <About />
       <Skills />
