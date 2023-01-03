@@ -10,9 +10,7 @@ import Skills from "./components/skill/Skills";
 function App() {
   const [open, setOpen] = useState(false);
   return (
-    <div onWheel={()=> setOpen(false)}
-     onTouchMove={()=> setOpen(false)}
-     >
+    <div  onTouchMove={()=> setOpen(false)}>
       <Navbar  open={open} setOpen ={setOpen} />
       <Home />
       <About />

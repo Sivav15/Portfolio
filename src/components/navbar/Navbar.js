@@ -11,7 +11,6 @@ import CloseIcon from "@material-ui/icons/Close";
 import DescriptionIcon from "@material-ui/icons/Description";
 
 function Navbar({open,setOpen}) {
-  
   const handleClick = () => setOpen(!open);
   const closeMenu = () => setOpen(false);
   return (
@@ -34,7 +33,6 @@ function Navbar({open,setOpen}) {
             offset={-100}
             duration={250}
             onClick={closeMenu}
-            onBlur={closeMenu}
           >
             <HomeIcon className="nav-icon" /> Home
           </Link>
@@ -48,7 +46,6 @@ function Navbar({open,setOpen}) {
             offset={-90}
             duration={250}
             onClick={closeMenu}
-            onBlur={closeMenu}
           >
             <InfoIcon className="nav-icon" /> About
           </Link>
@@ -61,7 +58,6 @@ function Navbar({open,setOpen}) {
             offset={-90}
             duration={250}
             onClick={closeMenu}
-            onBlur={closeMenu}
           >
             <EmojiObjectsIcon className="nav-icon" /> Skills
           </Link>
@@ -74,7 +70,6 @@ function Navbar({open,setOpen}) {
             offset={-90}
             duration={250}
             onClick={closeMenu}
-            onBlur={closeMenu}
           >
             <FormatListNumberedIcon className="nav-icon" /> Project
           </Link>
@@ -87,7 +82,6 @@ function Navbar({open,setOpen}) {
             offset={-90}
             duration={250}
             onClick={closeMenu}
-            onBlur={closeMenu}
           >
             <MailIcon className="nav-icon" /> Contact Us
           </Link>
@@ -100,7 +94,6 @@ function Navbar({open,setOpen}) {
             target="_blank"
             rel="noreferrer"
             onClick={closeMenu}
-            onBlur={closeMenu}
           >
             <DescriptionIcon className="nav-icon" /> Resume
           </a>
