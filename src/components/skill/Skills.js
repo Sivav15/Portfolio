@@ -67,6 +67,11 @@ function Skills() {
       color: "#856969",
     },
     {
+      name: "Redux-toolkit",
+      link: "./asset/redux.svg",
+      color: "#856969",
+    },
+    {
       name: "AWS",
       link: "./asset/aws.svg",
       color: "#856969",
