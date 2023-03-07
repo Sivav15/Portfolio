@@ -74,6 +74,18 @@ function Navbar({open,setOpen}) {
             <FormatListNumberedIcon className="nav-icon" /> Project
           </Link>
         </h6>
+        {/* <h6>
+          <Link
+            to="achievement"
+            spy={true}
+            smooth={true}
+            offset={-90}
+            duration={250}
+            onClick={closeMenu}
+          >
+            <FormatListNumberedIcon className="nav-icon" /> Achievement
+          </Link>
+        </h6> */}
         <h6>
           <Link
             to="contact"
@@ -90,7 +102,7 @@ function Navbar({open,setOpen}) {
           <a
             className="resume"
             to="contact"
-            href="https://docs.google.com/document/d/1nD7fzgzw5UmFSpnHK2FWVadnp4y7EaND26_AqkZzSTw/edit"
+            href="https://drive.google.com/file/d/1xQT4VA2J7Llq7CDq7Ubs2ucxy1zJ9Efw/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
             onClick={closeMenu}

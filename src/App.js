@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import About from "./components/about/About";
+import Achievement from "./components/achievement/Achievement";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Skills />
       <Project />
+      {/* <Achievement/> */}
       <Contact />
       <Footer />
     </div>
