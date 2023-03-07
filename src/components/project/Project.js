@@ -7,7 +7,61 @@ function Project() {
   const [value, setValue] = useState("all");
   let data = [
     {
-      key: ["react", "express", "all", "restApi", "mern"],
+      key: ["react", "express", "all", "restApi", "mern","node"],
+      img: "./asset/project/g store.png",
+      title: "Grocery Store",
+      githubFrontEnd:
+        "https://github.com/Sivav15/Glossary-store-FE",
+      githubBackEnd:
+        "https://github.com/Sivav15/Glossary-store-BE",
+      sourceCode:"https://grocerystorez.netlify.app",
+      shortNote:
+        "This is ecommerce application",
+      longNote: [
+        "The frontend is built using **React** with **Bootstrap** for styling. The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
+        // "I have add **login/logout** feature. If the **users** is **logged in**  it will dissplay the users **data**. ",
+        "They are **two category of admin and users**. If a **user login as admin** it will show the **admin page** or else it will show **User page**.",
+        "Admin page to show **add edit delete product** and show **avaliable stocks**, **bought stock**, **selling stock**, **billing (or) order data by user wise**.",
+        "User page to show **product** **add to cart**,**Razorpay method**, **your order page**, **profile page** and finaly **invoice bill send in your email** ect.",
+      ],
+      skills: [
+        {
+          name: "React",
+          link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+        },
+        {
+          name: "Node",
+          link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "Express",
+          link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        },
+        {
+          name: "Mongo DB",
+          link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+        },
+
+        {
+          name: "Bootstrap",
+          link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        },
+        {
+          name: "Chart JS",
+          link: "./asset/chartjs.svg",
+        },
+        {
+          name: "JWT",
+          link: "./asset/jwt.svg",
+        },
+        {
+          name: "Razorpay",
+          link: "./asset/razorpay.svg",
+        },
+      ],
+    },
+    {
+      key: ["react", "express", "all", "restApi", "mern","node"],
       img: "./asset/project/inventory.png",
       title: "Inventory Management",
       githubFrontEnd:
@@ -52,17 +106,13 @@ function Project() {
           link: "./asset/chartjs.svg",
         },
         {
-          name: "JWT",
-          link: "./asset/jwt.svg",
-        },
-        {
           name: "Razorpay",
           link: "./asset/razorpay.svg",
         },
       ],
     },
     {
-      key: ["react", "express", "all", "restApi", "mern"],
+      key: ["react", "express", "all", "restApi", "mern","node"],
       img: "./asset/project/teacher.png",
       title: "Mentor & Student Management",
       githubFrontEnd:
@@ -102,7 +152,7 @@ function Project() {
       ],
     },
     {
-      key: ["react", "express", "all", "restApi", "mern"],
+      key: ["react", "express", "all", "restApi", "mern","node"],
       img: "./asset/project/urlShort.png",
       title: "URL Shortener",
       githubFrontEnd: "https://github.com/Sivav15/url-shortener-front-end",
