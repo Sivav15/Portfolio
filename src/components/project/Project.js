@@ -30,6 +30,10 @@ function Project() {
           link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
         },
         {
+          name: "redux-toolkit",
+          link: "./asset/redux.svg",
+        },
+        {
           name: "Node",
           link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
